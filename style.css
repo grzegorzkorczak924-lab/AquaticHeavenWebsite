@@ -1,0 +1,196 @@
+body {
+    background-color: #063B4C;
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 40px;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+p {
+    font-size: 20px;
+    header {
+    border-bottom: 2px solid #1B7185;
+    padding-bottom: 20px;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: #7DE3F4;
+}
+
+main {
+    padding-top: 50px;
+}
+}
+article {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #0B5268;
+    border-radius: 15px;
+    text-align: left;
+}
+
+article h2 {
+    font-size: 32px;
+}
+
+article p {
+    line-height: 1.6;
+}
+.hero {
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 22px;
+    margin-bottom: 35px;
+}
+
+.button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #1B7185;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.button:hover {
+    background-color: #2795AA;
+}
+
+.welcome {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 30px;
+    text-align: center;
+}
+.latest {
+    max-width: 800px;
+    margin: 60px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.latest article {
+    margin-top: 25px;
+    text-align: left;
+}
+.features {
+    max-width: 1000px;
+    margin: 70px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.feature-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.feature {
+    flex: 1;
+    padding: 25px;
+    background-color: #0B5268;
+    border-radius: 15px;
+}
+
+.feature h3 {
+    font-size: 22px;
+}
+
+.feature p {
+    font-size: 16px;
+}
+@media (max-width: 700px) {
+
+    nav a {
+        display: inline-block;
+        margin: 8px;
+    }
+
+    .hero {
+        padding: 60px 15px;
+    }
+
+    .hero h2 {
+        font-size: 36px;
+    }
+
+    .hero p {
+        font-size: 18px;
+    }
+
+    .feature-container {
+        flex-direction: column;
+    }
+
+    .roadmap-container {
+        flex-direction: column;
+    }
+
+    article {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+}
+footer {
+    margin-top: 80px;
+    padding: 40px 20px;
+    background-color: #042D3A;
+    text-align: center;
+    border-top: 2px solid #1B7185;
+}
+
+footer h2 {
+    margin-bottom: 10px;
+}
+
+footer p {
+    margin: 5px 0;
+    font-size: 15px;
+}
+header img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+}
+header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header nav {
+    margin-left: auto;
+}
